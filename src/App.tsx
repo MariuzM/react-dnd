@@ -6,7 +6,7 @@ import './App.css'
 type typeFakeDataChildren = {
   id: number
   name: string
-  orgIcon: string
+  icon: string
   type: string
 }
 
@@ -25,8 +25,8 @@ const fakeData: typeFakeData[] = [
     icon: '',
     type: 'folder',
     children: [
-      { id: 1, name: 'Item 1', orgIcon: 'Icon', type: 'item' },
-      { id: 4, name: 'Item 4', orgIcon: 'Icon', type: 'item' },
+      { id: 1, name: 'Item 1', icon: 'Icon', type: 'item' },
+      { id: 4, name: 'Item 4', icon: 'Icon', type: 'item' },
     ],
   },
   {
@@ -35,9 +35,9 @@ const fakeData: typeFakeData[] = [
     icon: '',
     type: 'folder',
     children: [
-      { id: 2, name: 'Item 2', orgIcon: 'Icon', type: 'item' },
-      { id: 5, name: 'Item 5', orgIcon: 'Icon', type: 'item' },
-      { id: 6, name: 'Item 6', orgIcon: 'Icon', type: 'item' },
+      { id: 2, name: 'Item 2', icon: 'Icon', type: 'item' },
+      { id: 5, name: 'Item 5', icon: 'Icon', type: 'item' },
+      { id: 6, name: 'Item 6', icon: 'Icon', type: 'item' },
     ],
   },
   {
@@ -45,7 +45,7 @@ const fakeData: typeFakeData[] = [
     folderName: 'Folder 3',
     icon: '',
     type: 'folder',
-    children: [{ id: 3, name: 'Item 3', orgIcon: 'Icon', type: 'item' }],
+    children: [{ id: 3, name: 'Item 3', icon: 'Icon', type: 'item' }],
   },
 ]
 
